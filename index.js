@@ -1,6 +1,7 @@
 import 'zone.js'; // for angular subapp
 import { registerMicroApps, runAfterFirstMounted, setDefaultMountApp, start, initGlobalState } from 'qiankun';
 import './index.less';
+import '@alifd/theme-1/dist/next.css';
 
 /**
  * 主应用 **可以使用任意技术栈**
